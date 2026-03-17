@@ -1,0 +1,515 @@
+site_name: "The Biblical Sanctuary"
+site_description: A 30-study comprehensive investigation of the biblical sanctuary from its physical architecture through its theological implications for salvation, prophecy, and Revelation.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  font:
+    text: Roboto
+    code: Roboto Mono
+  custom_dir: overrides
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/book-bible
+      link: /
+
+extra_javascript:
+  - javascripts/verse-popup.js
+  - javascripts/study-breadcrumbs.js
+  - javascripts/external-links.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Studies:
+
+    # ── Part 1 -- The Earthly Sanctuary ──
+    - "Part 1 -- The Earthly Sanctuary":
+
+      - "01 -- Why a Sanctuary?":
+        - studies/sanc-01-why-a-sanctuary/CONCLUSION.md
+        - Analysis: studies/sanc-01-why-a-sanctuary/03-analysis.md
+        - Verses: studies/sanc-01-why-a-sanctuary/02-verses.md
+        - Word Studies: studies/sanc-01-why-a-sanctuary/04-word-studies.md
+        - Topics: studies/sanc-01-why-a-sanctuary/01-topics.md
+        - Research Scope: studies/sanc-01-why-a-sanctuary/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-01-why-a-sanctuary/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-01-why-a-sanctuary/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-01-why-a-sanctuary/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-01-why-a-sanctuary/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-01-why-a-sanctuary/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-01-why-a-sanctuary/raw-data/strongs-lookups.md
+      - "02 -- Tabernacle Architecture":
+        - studies/sanc-02-tabernacle-architecture/CONCLUSION.md
+        - Analysis: studies/sanc-02-tabernacle-architecture/03-analysis.md
+        - Verses: studies/sanc-02-tabernacle-architecture/02-verses.md
+        - Word Studies: studies/sanc-02-tabernacle-architecture/04-word-studies.md
+        - Topics: studies/sanc-02-tabernacle-architecture/01-topics.md
+        - Research Scope: studies/sanc-02-tabernacle-architecture/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-02-tabernacle-architecture/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-02-tabernacle-architecture/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-02-tabernacle-architecture/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-02-tabernacle-architecture/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-02-tabernacle-architecture/raw-data/strongs-lookups.md
+      - "03 -- Sanctuary Furniture":
+        - studies/sanc-03-sanctuary-furniture/CONCLUSION.md
+        - Analysis: studies/sanc-03-sanctuary-furniture/03-analysis.md
+        - Verses: studies/sanc-03-sanctuary-furniture/02-verses.md
+        - Word Studies: studies/sanc-03-sanctuary-furniture/04-word-studies.md
+        - Topics: studies/sanc-03-sanctuary-furniture/01-topics.md
+        - Research Scope: studies/sanc-03-sanctuary-furniture/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-03-sanctuary-furniture/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-03-sanctuary-furniture/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-03-sanctuary-furniture/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-03-sanctuary-furniture/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-03-sanctuary-furniture/raw-data/strongs-lookups.md
+
+    # ── Part 2 -- The Ritual System ──
+    - "Part 2 -- The Ritual System":
+
+      - "04 -- The Daily Service (Tamid)":
+        - studies/sanc-04-daily-service-tamid/CONCLUSION.md
+        - Analysis: studies/sanc-04-daily-service-tamid/03-analysis.md
+        - Verses: studies/sanc-04-daily-service-tamid/02-verses.md
+        - Word Studies: studies/sanc-04-daily-service-tamid/04-word-studies.md
+        - Topics: studies/sanc-04-daily-service-tamid/01-topics.md
+        - Research Scope: studies/sanc-04-daily-service-tamid/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-04-daily-service-tamid/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-04-daily-service-tamid/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-04-daily-service-tamid/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-04-daily-service-tamid/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-04-daily-service-tamid/raw-data/strongs-lookups.md
+      - "05 -- Sacrifice Types":
+        - studies/sanc-05-sacrifice-types/CONCLUSION.md
+        - Analysis: studies/sanc-05-sacrifice-types/03-analysis.md
+        - Verses: studies/sanc-05-sacrifice-types/02-verses.md
+        - Word Studies: studies/sanc-05-sacrifice-types/04-word-studies.md
+        - Topics: studies/sanc-05-sacrifice-types/01-topics.md
+        - Research Scope: studies/sanc-05-sacrifice-types/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-05-sacrifice-types/raw-data/concept-context.md
+          - "Greek Parsing": studies/sanc-05-sacrifice-types/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-05-sacrifice-types/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-05-sacrifice-types/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-05-sacrifice-types/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-05-sacrifice-types/raw-data/strongs-lookups.md
+      - "06 -- How Sin Enters the Sanctuary":
+        - studies/sanc-06-sin-enters-sanctuary/CONCLUSION.md
+        - Analysis: studies/sanc-06-sin-enters-sanctuary/03-analysis.md
+        - Verses: studies/sanc-06-sin-enters-sanctuary/02-verses.md
+        - Word Studies: studies/sanc-06-sin-enters-sanctuary/04-word-studies.md
+        - Topics: studies/sanc-06-sin-enters-sanctuary/01-topics.md
+        - Research Scope: studies/sanc-06-sin-enters-sanctuary/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-06-sin-enters-sanctuary/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-06-sin-enters-sanctuary/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-06-sin-enters-sanctuary/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-06-sin-enters-sanctuary/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-06-sin-enters-sanctuary/raw-data/strongs-lookups.md
+      - "07 -- The Priesthood":
+        - studies/sanc-07-priesthood/CONCLUSION.md
+        - Analysis: studies/sanc-07-priesthood/03-analysis.md
+        - Verses: studies/sanc-07-priesthood/02-verses.md
+        - Word Studies: studies/sanc-07-priesthood/04-word-studies.md
+        - Topics: studies/sanc-07-priesthood/01-topics.md
+        - Research Scope: studies/sanc-07-priesthood/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-07-priesthood/raw-data/concept-context.md
+          - "Greek Parsing": studies/sanc-07-priesthood/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-07-priesthood/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-07-priesthood/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-07-priesthood/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-07-priesthood/raw-data/strongs-lookups.md
+      - "08 -- The Veil":
+        - studies/sanc-08-veil-access/CONCLUSION.md
+        - Analysis: studies/sanc-08-veil-access/03-analysis.md
+        - Verses: studies/sanc-08-veil-access/02-verses.md
+        - Word Studies: studies/sanc-08-veil-access/04-word-studies.md
+        - Topics: studies/sanc-08-veil-access/01-topics.md
+        - Research Scope: studies/sanc-08-veil-access/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-08-veil-access/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-08-veil-access/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-08-veil-access/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-08-veil-access/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-08-veil-access/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-08-veil-access/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-08-veil-access/raw-data/strongs-lookups.md
+      - "09 -- Day of Atonement Ritual":
+        - studies/sanc-09-day-of-atonement-ritual/CONCLUSION.md
+        - Analysis: studies/sanc-09-day-of-atonement-ritual/03-analysis.md
+        - Verses: studies/sanc-09-day-of-atonement-ritual/02-verses.md
+        - Word Studies: studies/sanc-09-day-of-atonement-ritual/04-word-studies.md
+        - Topics: studies/sanc-09-day-of-atonement-ritual/01-topics.md
+        - Research Scope: studies/sanc-09-day-of-atonement-ritual/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-09-day-of-atonement-ritual/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-09-day-of-atonement-ritual/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-09-day-of-atonement-ritual/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-09-day-of-atonement-ritual/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-09-day-of-atonement-ritual/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-09-day-of-atonement-ritual/raw-data/strongs-lookups.md
+      - "10 -- Day of Atonement Chiasm":
+        - studies/sanc-10-day-of-atonement-chiasm/CONCLUSION.md
+        - Analysis: studies/sanc-10-day-of-atonement-chiasm/03-analysis.md
+        - Verses: studies/sanc-10-day-of-atonement-chiasm/02-verses.md
+        - Word Studies: studies/sanc-10-day-of-atonement-chiasm/04-word-studies.md
+        - Topics: studies/sanc-10-day-of-atonement-chiasm/01-topics.md
+        - Research Scope: studies/sanc-10-day-of-atonement-chiasm/PROMPT.md
+        - Raw Data:
+          - "Grammar References": studies/sanc-10-day-of-atonement-chiasm/raw-data/grammar-references.md
+          - "Hebrew Parsing": studies/sanc-10-day-of-atonement-chiasm/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-10-day-of-atonement-chiasm/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-10-day-of-atonement-chiasm/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-10-day-of-atonement-chiasm/raw-data/strongs-lookups.md
+      - "11 -- The Two Goats":
+        - studies/sanc-11-two-goats-typology/CONCLUSION.md
+        - Analysis: studies/sanc-11-two-goats-typology/03-analysis.md
+        - Verses: studies/sanc-11-two-goats-typology/02-verses.md
+        - Word Studies: studies/sanc-11-two-goats-typology/04-word-studies.md
+        - Topics: studies/sanc-11-two-goats-typology/01-topics.md
+        - Research Scope: studies/sanc-11-two-goats-typology/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-11-two-goats-typology/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-11-two-goats-typology/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-11-two-goats-typology/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-11-two-goats-typology/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-11-two-goats-typology/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-11-two-goats-typology/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-11-two-goats-typology/raw-data/strongs-lookups.md
+
+    # ── Part 3 -- The Festival Calendar ──
+    - "Part 3 -- The Festival Calendar":
+
+      - "12 -- Seven Feasts":
+        - studies/sanc-12-seven-feasts/CONCLUSION.md
+        - Analysis: studies/sanc-12-seven-feasts/03-analysis.md
+        - Verses: studies/sanc-12-seven-feasts/02-verses.md
+        - Word Studies: studies/sanc-12-seven-feasts/04-word-studies.md
+        - Topics: studies/sanc-12-seven-feasts/01-topics.md
+        - Research Scope: studies/sanc-12-seven-feasts/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-12-seven-feasts/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-12-seven-feasts/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-12-seven-feasts/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-12-seven-feasts/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-12-seven-feasts/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-12-seven-feasts/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-12-seven-feasts/raw-data/strongs-lookups.md
+      - "13 -- Spring Feasts Fulfilled":
+        - studies/sanc-13-spring-feasts-fulfilled/CONCLUSION.md
+        - Analysis: studies/sanc-13-spring-feasts-fulfilled/03-analysis.md
+        - Verses: studies/sanc-13-spring-feasts-fulfilled/02-verses.md
+        - Word Studies: studies/sanc-13-spring-feasts-fulfilled/04-word-studies.md
+        - Topics: studies/sanc-13-spring-feasts-fulfilled/01-topics.md
+        - Research Scope: studies/sanc-13-spring-feasts-fulfilled/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-13-spring-feasts-fulfilled/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-13-spring-feasts-fulfilled/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-13-spring-feasts-fulfilled/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-13-spring-feasts-fulfilled/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-13-spring-feasts-fulfilled/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-13-spring-feasts-fulfilled/raw-data/strongs-lookups.md
+      - "14 -- Feast of Trumpets":
+        - studies/sanc-14-feast-of-trumpets/CONCLUSION.md
+        - Analysis: studies/sanc-14-feast-of-trumpets/03-analysis.md
+        - Verses: studies/sanc-14-feast-of-trumpets/02-verses.md
+        - Word Studies: studies/sanc-14-feast-of-trumpets/04-word-studies.md
+        - Topics: studies/sanc-14-feast-of-trumpets/01-topics.md
+        - Research Scope: studies/sanc-14-feast-of-trumpets/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-14-feast-of-trumpets/raw-data/concept-context.md
+          - "Greek Parsing": studies/sanc-14-feast-of-trumpets/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-14-feast-of-trumpets/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-14-feast-of-trumpets/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-14-feast-of-trumpets/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-14-feast-of-trumpets/raw-data/strongs-lookups.md
+      - "15 -- Jubilee and Day of Atonement":
+        - studies/sanc-15-jubilee-day-of-atonement/CONCLUSION.md
+        - Analysis: studies/sanc-15-jubilee-day-of-atonement/03-analysis.md
+        - Verses: studies/sanc-15-jubilee-day-of-atonement/02-verses.md
+        - Word Studies: studies/sanc-15-jubilee-day-of-atonement/04-word-studies.md
+        - Topics: studies/sanc-15-jubilee-day-of-atonement/01-topics.md
+        - Research Scope: studies/sanc-15-jubilee-day-of-atonement/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-15-jubilee-day-of-atonement/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-15-jubilee-day-of-atonement/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-15-jubilee-day-of-atonement/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-15-jubilee-day-of-atonement/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-15-jubilee-day-of-atonement/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-15-jubilee-day-of-atonement/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-15-jubilee-day-of-atonement/raw-data/strongs-lookups.md
+      - "16 -- Feast of Tabernacles":
+        - studies/sanc-16-feast-of-tabernacles/CONCLUSION.md
+        - Analysis: studies/sanc-16-feast-of-tabernacles/03-analysis.md
+        - Verses: studies/sanc-16-feast-of-tabernacles/02-verses.md
+        - Word Studies: studies/sanc-16-feast-of-tabernacles/04-word-studies.md
+        - Topics: studies/sanc-16-feast-of-tabernacles/01-topics.md
+        - Research Scope: studies/sanc-16-feast-of-tabernacles/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-16-feast-of-tabernacles/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-16-feast-of-tabernacles/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-16-feast-of-tabernacles/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-16-feast-of-tabernacles/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-16-feast-of-tabernacles/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-16-feast-of-tabernacles/raw-data/strongs-lookups.md
+
+    # ── Part 4 -- Atonement & Salvation Theology ──
+    - "Part 4 -- Atonement & Salvation Theology":
+
+      - "17 -- Atonement Vocabulary":
+        - studies/sanc-17-atonement-vocabulary/CONCLUSION.md
+        - Analysis: studies/sanc-17-atonement-vocabulary/03-analysis.md
+        - Verses: studies/sanc-17-atonement-vocabulary/02-verses.md
+        - Word Studies: studies/sanc-17-atonement-vocabulary/04-word-studies.md
+        - Topics: studies/sanc-17-atonement-vocabulary/01-topics.md
+        - Research Scope: studies/sanc-17-atonement-vocabulary/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-17-atonement-vocabulary/raw-data/concept-context.md
+          - "Greek Parsing": studies/sanc-17-atonement-vocabulary/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-17-atonement-vocabulary/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-17-atonement-vocabulary/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-17-atonement-vocabulary/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-17-atonement-vocabulary/raw-data/strongs-lookups.md
+      - "18 -- Blood Ministry":
+        - studies/sanc-18-blood-ministry/CONCLUSION.md
+        - Analysis: studies/sanc-18-blood-ministry/03-analysis.md
+        - Verses: studies/sanc-18-blood-ministry/02-verses.md
+        - Word Studies: studies/sanc-18-blood-ministry/04-word-studies.md
+        - Topics: studies/sanc-18-blood-ministry/01-topics.md
+        - Research Scope: studies/sanc-18-blood-ministry/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-18-blood-ministry/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-18-blood-ministry/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-18-blood-ministry/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-18-blood-ministry/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-18-blood-ministry/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-18-blood-ministry/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-18-blood-ministry/raw-data/strongs-lookups.md
+      - "19 -- Vindication and the Courtroom":
+        - studies/sanc-19-vindication-courtroom/CONCLUSION.md
+        - Analysis: studies/sanc-19-vindication-courtroom/03-analysis.md
+        - Verses: studies/sanc-19-vindication-courtroom/02-verses.md
+        - Word Studies: studies/sanc-19-vindication-courtroom/04-word-studies.md
+        - Topics: studies/sanc-19-vindication-courtroom/01-topics.md
+        - Research Scope: studies/sanc-19-vindication-courtroom/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-19-vindication-courtroom/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-19-vindication-courtroom/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-19-vindication-courtroom/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-19-vindication-courtroom/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-19-vindication-courtroom/raw-data/strongs-lookups.md
+      - "20 -- Sanctuary as Salvation Model":
+        - studies/sanc-20-sanctuary-salvation-model/CONCLUSION.md
+        - Analysis: studies/sanc-20-sanctuary-salvation-model/03-analysis.md
+        - Verses: studies/sanc-20-sanctuary-salvation-model/02-verses.md
+        - Word Studies: studies/sanc-20-sanctuary-salvation-model/04-word-studies.md
+        - Topics: studies/sanc-20-sanctuary-salvation-model/01-topics.md
+        - Research Scope: studies/sanc-20-sanctuary-salvation-model/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-20-sanctuary-salvation-model/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-20-sanctuary-salvation-model/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-20-sanctuary-salvation-model/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-20-sanctuary-salvation-model/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-20-sanctuary-salvation-model/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-20-sanctuary-salvation-model/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-20-sanctuary-salvation-model/raw-data/strongs-lookups.md
+
+    # ── Part 5 -- The Heavenly Sanctuary ──
+    - "Part 5 -- The Heavenly Sanctuary":
+
+      - "21 -- Hebrews: Christ's Heavenly Ministry":
+        - studies/sanc-21-hebrews-heavenly-ministry/CONCLUSION.md
+        - Analysis: studies/sanc-21-hebrews-heavenly-ministry/03-analysis.md
+        - Verses: studies/sanc-21-hebrews-heavenly-ministry/02-verses.md
+        - Word Studies: studies/sanc-21-hebrews-heavenly-ministry/04-word-studies.md
+        - Topics: studies/sanc-21-hebrews-heavenly-ministry/01-topics.md
+        - Research Scope: studies/sanc-21-hebrews-heavenly-ministry/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-21-hebrews-heavenly-ministry/raw-data/concept-context.md
+          - "Greek Parsing": studies/sanc-21-hebrews-heavenly-ministry/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-21-hebrews-heavenly-ministry/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-21-hebrews-heavenly-ministry/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-21-hebrews-heavenly-ministry/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-21-hebrews-heavenly-ministry/raw-data/strongs-lookups.md
+      - "22 -- Heavenly Things Purified":
+        - studies/sanc-22-heavenly-things-purified/CONCLUSION.md
+        - Analysis: studies/sanc-22-heavenly-things-purified/03-analysis.md
+        - Verses: studies/sanc-22-heavenly-things-purified/02-verses.md
+        - Word Studies: studies/sanc-22-heavenly-things-purified/04-word-studies.md
+        - Topics: studies/sanc-22-heavenly-things-purified/01-topics.md
+        - Research Scope: studies/sanc-22-heavenly-things-purified/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-22-heavenly-things-purified/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-22-heavenly-things-purified/raw-data/greek-parsing.md
+          - "Cross-Testament Parallels": studies/sanc-22-heavenly-things-purified/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-22-heavenly-things-purified/raw-data/strongs-lookups.md
+      - "23 -- Three Phases of Ministry":
+        - studies/sanc-23-three-phases-ministry/CONCLUSION.md
+        - Analysis: studies/sanc-23-three-phases-ministry/03-analysis.md
+        - Verses: studies/sanc-23-three-phases-ministry/02-verses.md
+        - Word Studies: studies/sanc-23-three-phases-ministry/04-word-studies.md
+        - Topics: studies/sanc-23-three-phases-ministry/01-topics.md
+        - Research Scope: studies/sanc-23-three-phases-ministry/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-23-three-phases-ministry/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-23-three-phases-ministry/raw-data/greek-parsing.md
+          - "Nave's Topics": studies/sanc-23-three-phases-ministry/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-23-three-phases-ministry/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-23-three-phases-ministry/raw-data/strongs-lookups.md
+
+    # ── Part 6 -- Sanctuary in Prophecy ──
+    - "Part 6 -- Sanctuary in Prophecy":
+
+      - "24 -- Daniel 7: The Heavenly Court":
+        - studies/sanc-24-daniel-7-court/CONCLUSION.md
+        - Analysis: studies/sanc-24-daniel-7-court/03-analysis.md
+        - Verses: studies/sanc-24-daniel-7-court/02-verses.md
+        - Word Studies: studies/sanc-24-daniel-7-court/04-word-studies.md
+        - Topics: studies/sanc-24-daniel-7-court/01-topics.md
+        - Research Scope: studies/sanc-24-daniel-7-court/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-24-daniel-7-court/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-24-daniel-7-court/raw-data/greek-parsing.md
+          - "Nave's Topics": studies/sanc-24-daniel-7-court/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-24-daniel-7-court/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-24-daniel-7-court/raw-data/strongs-lookups.md
+      - "25 -- Daniel 8:14: Sanctuary Vindicated":
+        - studies/sanc-25-daniel-8-14-vindicated/CONCLUSION.md
+        - Analysis: studies/sanc-25-daniel-8-14-vindicated/03-analysis.md
+        - Verses: studies/sanc-25-daniel-8-14-vindicated/02-verses.md
+        - Word Studies: studies/sanc-25-daniel-8-14-vindicated/04-word-studies.md
+        - Topics: studies/sanc-25-daniel-8-14-vindicated/01-topics.md
+        - Research Scope: studies/sanc-25-daniel-8-14-vindicated/PROMPT.md
+        - Raw Data:
+          - "Concept Context": studies/sanc-25-daniel-8-14-vindicated/raw-data/concept-context.md
+          - "Existing Studies": studies/sanc-25-daniel-8-14-vindicated/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-25-daniel-8-14-vindicated/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-25-daniel-8-14-vindicated/raw-data/hebrew-parsing.md
+          - "Strong's Lookups": studies/sanc-25-daniel-8-14-vindicated/raw-data/strongs-lookups.md
+      - "26 -- Daniel 9:24: Atonement & Vindication":
+        - studies/sanc-26-daniel-9-24-vocabulary/CONCLUSION.md
+        - Analysis: studies/sanc-26-daniel-9-24-vocabulary/03-analysis.md
+        - Verses: studies/sanc-26-daniel-9-24-vocabulary/02-verses.md
+        - Word Studies: studies/sanc-26-daniel-9-24-vocabulary/04-word-studies.md
+        - Topics: studies/sanc-26-daniel-9-24-vocabulary/01-topics.md
+        - Research Scope: studies/sanc-26-daniel-9-24-vocabulary/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-26-daniel-9-24-vocabulary/raw-data/existing-studies.md
+          - "Hebrew Parsing": studies/sanc-26-daniel-9-24-vocabulary/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-26-daniel-9-24-vocabulary/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-26-daniel-9-24-vocabulary/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-26-daniel-9-24-vocabulary/raw-data/strongs-lookups.md
+      - "27 -- Ezekiel & Zechariah: Sanctuary Theology":
+        - studies/sanc-27-ezekiel-zechariah-sanctuary/CONCLUSION.md
+        - Analysis: studies/sanc-27-ezekiel-zechariah-sanctuary/03-analysis.md
+        - Verses: studies/sanc-27-ezekiel-zechariah-sanctuary/02-verses.md
+        - Word Studies: studies/sanc-27-ezekiel-zechariah-sanctuary/04-word-studies.md
+        - Topics: studies/sanc-27-ezekiel-zechariah-sanctuary/01-topics.md
+        - Research Scope: studies/sanc-27-ezekiel-zechariah-sanctuary/PROMPT.md
+        - Raw Data:
+          - "Greek Parsing": studies/sanc-27-ezekiel-zechariah-sanctuary/raw-data/greek-parsing.md
+          - "Hebrew Parsing": studies/sanc-27-ezekiel-zechariah-sanctuary/raw-data/hebrew-parsing.md
+          - "Nave's Topics": studies/sanc-27-ezekiel-zechariah-sanctuary/raw-data/naves-topics.md
+          - "Strong's Lookups": studies/sanc-27-ezekiel-zechariah-sanctuary/raw-data/strongs-lookups.md
+
+    # ── Part 7 -- Sanctuary in Revelation ──
+    - "Part 7 -- Sanctuary in Revelation":
+
+      - "28 -- Sanctuary Vocabulary in Revelation":
+        - studies/sanc-28-sanctuary-in-revelation/CONCLUSION.md
+        - Analysis: studies/sanc-28-sanctuary-in-revelation/03-analysis.md
+        - Verses: studies/sanc-28-sanctuary-in-revelation/02-verses.md
+        - Word Studies: studies/sanc-28-sanctuary-in-revelation/04-word-studies.md
+        - Topics: studies/sanc-28-sanctuary-in-revelation/01-topics.md
+        - Research Scope: studies/sanc-28-sanctuary-in-revelation/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-28-sanctuary-in-revelation/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-28-sanctuary-in-revelation/raw-data/greek-parsing.md
+          - "Nave's Topics": studies/sanc-28-sanctuary-in-revelation/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-28-sanctuary-in-revelation/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-28-sanctuary-in-revelation/raw-data/strongs-lookups.md
+      - "29 -- Sanctuary Progression in Revelation":
+        - studies/sanc-29-sanctuary-progression-revelation/CONCLUSION.md
+        - Analysis: studies/sanc-29-sanctuary-progression-revelation/03-analysis.md
+        - Verses: studies/sanc-29-sanctuary-progression-revelation/02-verses.md
+        - Word Studies: studies/sanc-29-sanctuary-progression-revelation/04-word-studies.md
+        - Topics: studies/sanc-29-sanctuary-progression-revelation/01-topics.md
+        - Research Scope: studies/sanc-29-sanctuary-progression-revelation/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-29-sanctuary-progression-revelation/raw-data/existing-studies.md
+          - "Greek Parsing": studies/sanc-29-sanctuary-progression-revelation/raw-data/greek-parsing.md
+          - "Nave's Topics": studies/sanc-29-sanctuary-progression-revelation/raw-data/naves-topics.md
+          - "Strong's Lookups": studies/sanc-29-sanctuary-progression-revelation/raw-data/strongs-lookups.md
+
+    # ── Part 8 -- Synthesis ──
+    - "Part 8 -- Synthesis":
+
+      - "30 -- Grand Synthesis":
+        - studies/sanc-30-grand-synthesis/CONCLUSION.md
+        - Analysis: studies/sanc-30-grand-synthesis/03-analysis.md
+        - Verses: studies/sanc-30-grand-synthesis/02-verses.md
+        - Word Studies: studies/sanc-30-grand-synthesis/04-word-studies.md
+        - Topics: studies/sanc-30-grand-synthesis/01-topics.md
+        - Research Scope: studies/sanc-30-grand-synthesis/PROMPT.md
+        - Raw Data:
+          - "Existing Studies": studies/sanc-30-grand-synthesis/raw-data/existing-studies.md
+          - "Nave's Topics": studies/sanc-30-grand-synthesis/raw-data/naves-topics.md
+          - "Cross-Testament Parallels": studies/sanc-30-grand-synthesis/raw-data/parallels.md
+          - "Strong's Lookups": studies/sanc-30-grand-synthesis/raw-data/strongs-lookups.md
+
+  - Methodology: methodology.md
+  - "Tools & Process": tools.md
